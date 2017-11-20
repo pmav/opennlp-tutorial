@@ -10,8 +10,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        // Models: http://opennlp.sourceforge.net/models-1.5/
-
         InputStream in = Main.class.getResourceAsStream("/models/en-token.bin");
         TokenizerModel model = new TokenizerModel(in);
 
